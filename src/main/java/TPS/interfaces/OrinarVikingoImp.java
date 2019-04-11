@@ -2,9 +2,9 @@ package TPS.interfaces;
 
 public class OrinarVikingoImp implements Orinar{
 
-    public int comenzarOrinada(int num){
+    public int comenzarOrinada(){
 
-        return num*3;
+        return (int) (Math.random()*10);
     }
 
 }
