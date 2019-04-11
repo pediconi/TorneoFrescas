@@ -2,5 +2,7 @@ package TPS.interfaces;
 
 public interface Orinar {
 
-    public int comenzarOrinada();  // creo el metodo
+    public int orinando();  // creo el metodo
+
+
 }

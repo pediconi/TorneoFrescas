@@ -1,9 +1,9 @@
 package TPS.interfaces;
 
-public class OrinarEspartanoImp {
+public class OrinarEspartanoImp implements Orinar {
 
-    public int comenzarOrinada(int num){
+    public int orinando(){
 
-        return num*2;
+        return (int) (Math.random()*10);
     }
 }
