@@ -8,3 +8,5 @@ POM que significa y para que sirve?
 POM significa modelo de origen de proyecto
 Permite la creacion de librerias o archivos de configuracion XML que podran ser reutilizados por distintos proyectos.
 
+Diferencia entre archetype y artifactid
+
