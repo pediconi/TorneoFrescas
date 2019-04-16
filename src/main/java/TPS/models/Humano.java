@@ -8,6 +8,7 @@ public class Humano {
     private String nombre;
     private Integer edad;
     private Integer peso;
+    private int bebidaEnCuerpo = 0;
     private Orinar orinar;
     private Beber beber;
 
@@ -59,14 +60,22 @@ public class Humano {
         this.beber = beber;
     }
 
+    public void setBebidaEnCuerpo(int bebidaEnCuerpo) {
+        this.bebidaEnCuerpo = bebidaEnCuerpo;
+    }
+
+    public int getBebidaEnCuerpo() {
+        return bebidaEnCuerpo;
+    }
+
+
     @Override
     public String toString() {
-        return "Humano{" +
-                "nombre='" + nombre + '\'' +
-                ", edad=" + edad +
-                ", peso=" + peso +
-                ", orinar=" + orinar.orinando() +
-                ", beber=" + beber.bebiendo() +
+        return
+                " nombre=" + nombre +
+                " edad=" + edad +
+                " peso=" + peso + ""+
+                " bebidaEnCuerpo=" + bebidaEnCuerpo +
                 '}';
     }
 }
